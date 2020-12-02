@@ -128,3 +128,7 @@ STATIC_ROOT = 'static'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'proyectofinal/static')
 ]
+
+# Django Heroku
+import django_heroku
+django_heroku.settings(locals())
